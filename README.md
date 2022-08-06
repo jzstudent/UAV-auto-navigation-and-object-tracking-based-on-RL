@@ -140,5 +140,7 @@ airsim安装好了之后，将Unreal/Plugins  copy到workspace/airLearning-ue4�
 ### 5.后续
 RL训练自主导航的过程主要是在这个环境中，视频里跟踪移动的行人和避障测试都是在自己搭建的UE4环境里实现的，实现过程也很简单，只是换个工程而已都是通过aisrim的插件实现的。
 
-3D目标检测部分的话是基于https://github.com/lzccccc/SMOKE这个project实现的，安装好smoke后，即可使用3D目标检测+实时导航实现目标追踪效果。
+3D目标检测部分的话是基于https://github.com/lzccccc/SMOKE 这个project实现的，安装好smoke后，即可使用3D目标检测+实时导航实现目标追踪效果。
+
+训练曲线和调试超参就不放了，以及SAC算法中设计的self-attention部分也不解释了，有兴趣的可以去看看我的毕业论文（勿喷）。
 
