@@ -137,6 +137,13 @@ airsim安装好了之后，将Unreal/Plugins  copy到workspace/airLearning-ue4�
 
 这部分是笔者主要写的包，里面将Airsim和UE4的操作api都进行了封装，并形成了gym格式，你可以直接像操作gym环境一样进行step和reset，目前里面设计了DQN，PPO，SAC等算法。
 
+执行一次（复制操作）
+```
+cd misc/move_to_airsim
+python client.py
+```
+之后就可以启动对应算法进行训练了。
+
 ### 5.后续
 RL训练自主导航的过程主要是在这个环境中，视频里跟踪移动的行人和避障测试都是在自己搭建的UE4环境里实现的，实现过程也很简单，只是换个工程而已都是通过aisrim的插件实现的。
 
