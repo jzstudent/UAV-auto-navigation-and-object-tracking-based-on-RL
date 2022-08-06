@@ -7,7 +7,7 @@ https://www.bilibili.com/video/BV1Yr4y1W7iD?vd_source=4650bebdc1f550a1365c594cd8
 
 https://www.bilibili.com/video/BV14R4y1L7MQ/
 
-UE4部分主要参考了以下工程https://github.com/harvard-edge/airlearning-ue4/tree/ffb63b98e1e5e7f9ad1096e3e51b70823c024a6d， 算法和接口部分是自行实现的，这里不建议使用https://github.com/harvard-edge/airlearning-rl/tree/dcd8a39f77992873f49b6872aa534a64a2bfa23a 这个库开发哈，笔者做了很多优化和改进。
+UE4部分主要参考了以下工程https://github.com/harvard-edge/airlearning-ue4/tree/ffb63b98e1e5e7f9ad1096e3e51b70823c024a6d， 算法和接口部分是自行实现的，这里不建议使用https://github.com/harvard-edge/airlearning-rl/tree/dcd8a39f77992873f49b6872aa534a64a2bfa23a 这个库开发，笔者在此基础上做了很多优化和改进（踩了很多坑）。
 
 PS：因为疫情原因毕业生进不去学校没办法去制作docker了，都是copy出来的文件，环境问题可能需要大家自行去解决一下了。
 
