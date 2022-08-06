@@ -144,7 +144,7 @@ airsim安装好了之后，将Unreal/Plugins  copy到workspace/airLearning-ue4�
 cd misc/move_to_airsim
 python client.py
 ```
-之后就可以启动对应算法进行训练了。
+之后就可以启动对应算法进行训练了，airsim中对应飞机传感器和数据类型的设置在airsim的官方doc中都有，可以自行修改，修改后记得到gym_aisrm中修改对应的api来获取你想要的数据格式，然后修改state空间即可。
 
 ### 5.后续
 RL训练自主导航的过程主要是在这个环境中，视频里跟踪移动的行人和避障测试都是在自己搭建的UE4环境里实现的，实现过程也很简单，只是换个工程而已都是通过aisrim的插件实现的。
