@@ -1,0 +1,34 @@
+./AirLib/include/physics/FastPhysicsEngine.hpp:            body.updateEnergyConsumed((float)P * float(dt));
+./AirLib/include/physics/PhysicsBody.hpp:    virtual void updateEnergyConsumed(float inst_energy) {
+./AirLib/include/physics/PhysicsBody.hpp:    float getEnergyConsumed() const
+./AirLib/include/vehicles/multirotor/MultiRotor.hpp:            trip_stats.energy_consumed = getEnergyConsumed();
+Binary file ./AirLibUnitTests/build/x64/Debug/AirLibUnitTests.ilk matches
+Binary file ./AirLibUnitTests/build/x64/Debug/AirLibUnitTests.pdb matches
+Binary file ./AirLibUnitTests/build/x64/Release/AirLibUnitTests.iobj matches
+Binary file ./AirLibUnitTests/build/x64/Release/AirLibUnitTests.pdb matches
+Binary file ./AirLibUnitTests/temp/AirLibUnitTests/x64/Debug/main.obj matches
+Binary file ./AirLibUnitTests/temp/AirLibUnitTests/x64/Debug/vc141.pdb matches
+Binary file ./AirLibUnitTests/temp/AirLibUnitTests/x64/Release/main.obj matches
+Binary file ./AirLibUnitTests/temp/AirLibUnitTests/x64/Release/vc141.pdb matches
+Binary file ./Examples/build/x64/Debug/Examples.ilk matches
+Binary file ./Examples/build/x64/Debug/Examples.pdb matches
+Binary file ./Examples/build/x64/Release/Examples.ipdb matches
+Binary file ./Examples/build/x64/Release/Examples.pdb matches
+Binary file ./Examples/temp/Examples/x64/Debug/main.obj matches
+Binary file ./Examples/temp/Examples/x64/Debug/vc141.pdb matches
+Binary file ./Examples/temp/Examples/x64/Release/main.obj matches
+Binary file ./Examples/temp/Examples/x64/Release/vc141.pdb matches
+Binary file ./Unreal/Environments/Blocks/.vs/Blocks/v15/Browse.VC.db matches
+Binary file ./Unreal/Environments/Blocks/.vs/Blocks/v15/ipch/AutoPCH/276e7e5d6ceecdae/MULTIROTORPAWNSIMAPI.ipch matches
+Binary file ./Unreal/Environments/Blocks/Plugins/AirSim/Binaries/Win64/UE4Editor-AirSim.pdb matches
+Binary file ./Unreal/Environments/Blocks/Plugins/AirSim/Intermediate/Build/Win64/UE4Editor/Development/AirSim/Module.AirSim.cpp.obj matches
+./Unreal/Environments/Blocks/Plugins/AirSim/Source/AirLib/include/physics/FastPhysicsEngine.hpp:            body.updateEnergyConsumed((float)P * float(dt));
+./Unreal/Environments/Blocks/Plugins/AirSim/Source/AirLib/include/physics/PhysicsBody.hpp:    virtual void updateEnergyConsumed(float inst_energy) {
+./Unreal/Environments/Blocks/Plugins/AirSim/Source/AirLib/include/physics/PhysicsBody.hpp:    float getEnergyConsumed() const
+./Unreal/Environments/Blocks/Plugins/AirSim/Source/AirLib/include/vehicles/multirotor/MultiRotor.hpp:            trip_stats.energy_consumed = getEnergyConsumed();
+./Unreal/Environments/Blocks/Plugins/AirSim/Source/Vehicles/Multirotor/MultirotorPawnSimApi.cpp:    UAirBlueprintLib::LogMessage(TEXT("EnergyConsumed:"), FString::SanitizeFloat(phys_vehicle_->getEnergyConsumed()), LogDebugLevel::Failure);
+./Unreal/Plugins/AirSim/Source/AirLib/include/physics/FastPhysicsEngine.hpp:            body.updateEnergyConsumed((float)P * float(dt));
+./Unreal/Plugins/AirSim/Source/AirLib/include/physics/PhysicsBody.hpp:    virtual void updateEnergyConsumed(float inst_energy) {
+./Unreal/Plugins/AirSim/Source/AirLib/include/physics/PhysicsBody.hpp:    float getEnergyConsumed() const
+./Unreal/Plugins/AirSim/Source/AirLib/include/vehicles/multirotor/MultiRotor.hpp:            trip_stats.energy_consumed = getEnergyConsumed();
+./Unreal/Plugins/AirSim/Source/Vehicles/Multirotor/MultirotorPawnSimApi.cpp:    UAirBlueprintLib::LogMessage(TEXT("EnergyConsumed:"), FString::SanitizeFloat(phys_vehicle_->getEnergyConsumed()), LogDebugLevel::Failure);

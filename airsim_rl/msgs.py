@@ -1,0 +1,10 @@
+success = False
+meta_data = {}
+episodal_log_dic = {}
+episodal_log_dic_verbose = {}
+cur_zone_number = 0
+weight_file_under_test = ''
+tst_inst_ctr = 0
+mode = 'train'
+algo = 'PPO'
+restart_game_count = 0
