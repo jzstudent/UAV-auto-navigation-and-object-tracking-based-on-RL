@@ -75,7 +75,8 @@ git clone https://github.com/harvard-edge/airlearning-ue4.git
 		}
 	],
   
-然后才可以compile并打开这个项目。
+然后才可以compile并打开这个项目，如遇到以下问题：
+![图片](https://github.com/jzstudent/UAV-auto-navigation-and-object-tracking-based-on-RL/blob/main/picture/1.png?raw=true)
 
 ### （3）下载本项目中的airsim-rl
 ```
@@ -124,9 +125,10 @@ airsim安装好了之后，将Unreal/Plugins  copy到workspace/airLearning-ue4�
 }
 ```
 接下来打开工程这一步很重要，不要直接打开project，否则是启动不了的，需要进到UnrealEngine installation folder and start Unreal by running ./Engine/Binaries/Linux/UE4Editor，需要启动UE4Editor，然后点击浏览，选择打开AirLearning.uproject，这个时候会弹出一个框图，选择options中的原位转换，这时才会rebuild相关的文件，等待片刻，就可以了。
+![图片](https://github.com/jzstudent/UAV-auto-navigation-and-object-tracking-based-on-RL/blob/main/picture/2.png?raw=true)
 
 ### （4）设置Game Mode
-
+![图片](https://github.com/jzstudent/UAV-auto-navigation-and-object-tracking-based-on-RL/blob/main/picture/3.png?raw=true)
 好了，到这一步，build+start就可以了，环境配置完成。
 
 ## 3.Domain randomization的实现
