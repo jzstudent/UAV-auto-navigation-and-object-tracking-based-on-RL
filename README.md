@@ -1,6 +1,8 @@
 # UAV-auto-navigation-and-object-tracking-based-on-RL
 毕业设计的代码部分，实现了UE4和airsim环境下无人机自主导航和目标跟踪的强化学习算法。
 
+### 新建交流学习qq群：828214880，对强化学习和Airsim之类感兴趣的可以一起讨论学习
+
 b站对应地址：
 
 https://www.bilibili.com/video/BV1Yr4y1W7iD?vd_source=4650bebdc1f550a1365c594cd887b477#reply122072948160
